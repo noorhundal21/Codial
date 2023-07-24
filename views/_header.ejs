@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="/css/header.css">
+<header>
+    <div id="home-heading">
+        
+    <h1>
+        Codial
+    </h1>
+    </div>
+    <div id="nav-list"> 
+    <ul>
+        <div id="nav-list-items">
+        <% if(locals.user){ %>
+            
+            <li><%= user.name %></li>
+            <li><a href="/users/sign-out">Sign-out</a></li>
+        <% }else { %>
+            <li> <a href="/users/sign-in">Sign-in</a></li>
+            <li> <a href="/users/sign-up">Sign-up</a></li>
+            <% } %>
+        </div>
+    </ul>
+</div>
+</header>

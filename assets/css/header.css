@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(74, 119, 157);
+    color: white;
+}
+
+h1{
+margin-left: 10px;
+}
+
+#home-heading{
+    width: 50%;
+}
+
+
+#nav-list{
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+#nav-list-items li{
+    padding-right: 10px;
+    display: inline;
+    font-size: 20px;
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+#nav-list-items a{
+    color: white;
+    text-decoration: none;
+}
+

@@ -1,0 +1,36 @@
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+#feed-posts{
+    width : 80vw;
+    height: 80vh;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid black;
+}
+
+#user-friends{
+    width : 18vw;
+    display: inline-block;
+    text-align: left;
+    height : 80vh;
+    vertical-align: top;
+    font-size: 25px;
+}
+
+
+#post-submit{
+    font-size: 20px;
+    margin-top:3px;
+    border-radius: 10%;
+}
+
+#post-list-container{
+    text-align: left;
+    
+}
+
+#upper-block{
+    border: 2px solid black;
+}
